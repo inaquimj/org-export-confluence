@@ -1,2 +1,7 @@
 * ORG-EXPORT-CONFLUENCE
   Org-mode to confluence storage exporter.
+** Tasks
+   - [ ] Setup backend
+   - [ ] Implement outline
+   - [ ] Implmenet checklists
+   - [ ] Implement tables
