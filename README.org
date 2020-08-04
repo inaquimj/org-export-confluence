@@ -5,8 +5,15 @@
    This exporter translates org files to the [[https://confluence.atlassian.com/doc/confluence-storage-format-790796544.html][Confluence Storage Format]]
 
 ** Current status
-   At this point no logic has been implemented, only the most basic interface has been
-   added. This backend is a derivation of the html regular export backend.
+   - [X] Setup backend
+   - [X] Remove document template
+   - [X] Add Table of Content
+   - [X] Fix table format
+   - [ ] Remove numbers from sections
+   - [ ] Check lists
+   - [ ] Check checkboxes
+   - [ ] Links to the same document or confluence pages
+   - [ ] Multi-row cells in tables?
    
 ** How to install
    This package is in a super early state of development, for this reason the only way
@@ -17,9 +24,4 @@
    - [[https://orgmode.org/worg/exporters/ox-docstrings.html][Docstrings from 'ox.el']]
    - [[https://confluence.atlassian.com/doc/confluence-storage-format-790796544.html][Confluence Storage Format]]
 
-** Tasks
-   - Setup backend
-   - Implement outline
-   - Implmenet checklists
-   - Implement tables
 
