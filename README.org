@@ -1,7 +1,25 @@
 * ORG-EXPORT-CONFLUENCE
   Org-mode to confluence storage exporter.
+
+** Confluence Storage
+   This exporter translates org files to the [[https://confluence.atlassian.com/doc/confluence-storage-format-790796544.html][Confluence Storage Format]]
+
+** Current status
+   At this point no logic has been implemented, only the most basic interface has been
+   added. This backend is a derivation of the html regular export backend.
+   
+** How to install
+   This package is in a super early state of development, for this reason the only way
+   of installing this package is through the use of ~M-x load-file~.
+
+** Relevant External Documentation
+   - [[https://orgmode.org/worg/dev/org-export-reference.html][Org Export Reference Documentation]]
+   - [[https://orgmode.org/worg/exporters/ox-docstrings.html][Docstrings from 'ox.el']]
+   - [[https://confluence.atlassian.com/doc/confluence-storage-format-790796544.html][Confluence Storage Format]]
+
 ** Tasks
    - Setup backend
    - Implement outline
    - Implmenet checklists
    - Implement tables
+
