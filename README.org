@@ -9,6 +9,8 @@
    - [X] Remove document template
    - [X] Add Table of Content
    - [X] Fix table format
+   - [X] Add Continuous Integration
+   - [ ] Remove lint issues
    - [ ] Remove numbers from sections
    - [ ] Check lists
    - [ ] Check checkboxes
