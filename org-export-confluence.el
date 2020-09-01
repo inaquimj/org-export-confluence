@@ -8,6 +8,11 @@
 ;; Keywords: languages
 ;; Version: 0.1
 
+;;; Commentary:
+
+;; This package tailors org-mode export to html to match the syntax of
+;; confluence storage.
+
 (setq org-html-head-include-default-style nil)
 (setq org-html-table-default-attributes nil)
 
