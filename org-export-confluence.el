@@ -1,3 +1,13 @@
+;;; org-export-confluence.el --- Export org-mode files to confluence storage
+     
+;; Copyright (C) 2020 
+
+;; Author: Your Name <yourname@example.com>
+;; Maintainer: Someone Else <someone@example.com>
+;; Created: 14 Jul 2010
+;; Keywords: languages
+;; Version: 0.1
+
 (setq org-html-head-include-default-style nil)
 (setq org-html-table-default-attributes nil)
 
@@ -7,7 +17,7 @@
 						      (inner-template . org-cs-exp-inner-template)))
 
 
- ;;;###autoload
+;;;###autoload
 (defun org-confluence-storage-export-as-confluence-storage
 (&optional async subtreep visible-only body-only ext-plist)
   (interactive)
@@ -16,3 +26,5 @@
 
 (defun org-cs-exp-template (contents info) contents)
 (defun org-cs-exp-inner-template (contents info) (concat "<ac:structured-macro ac:macro-id=\"954618d1-3832-4140-a7c1-e0120ef6d3dc\" ac:name=\"toc\" ac:schema-version=\"1\"/>\n\n" contents))
+
+;;; org-export-confluence.el ends here
