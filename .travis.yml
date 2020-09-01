@@ -32,7 +32,6 @@ install:
   - make install
 
 script:
-  - ls -RA
   - make lint 
 
 notifications:
