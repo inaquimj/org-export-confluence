@@ -2,16 +2,20 @@
      
 ;; Copyright (C) 2020 
 
-;; Author: Your Name <yourname@example.com>
-;; Maintainer: Someone Else <someone@example.com>
+;; Author: Andreé Toledo <aandreetoledo@gmail.com>
+;; Maintainer: Iñaqui Medina <inaqui.medina@gmail.com>
 ;; Created: 14 Jul 2010
-;; Keywords: languages
+;; Keywords: org-mode export confluence storage
 ;; Version: 0.1
+;; URL: https://github.com/inaquimj/org-export-confluence
+;; Package-Requires: ((emacs "24.4"))
 
 ;;; Commentary:
 
 ;; This package tailors org-mode export to html to match the syntax of
 ;; confluence storage.
+
+(provide 'org-export-confluence)
 
 (setq org-html-head-include-default-style nil)
 (setq org-html-table-default-attributes nil)
