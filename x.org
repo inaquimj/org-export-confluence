@@ -1,0 +1,11 @@
+* un h2
+** un h3
+   | Header 1  | Header 2                                       |
+   |-----------+------------------------------------------------|
+   | Data 1 r1 | Data 2 con un texto super largo a ver qué pasa |
+   | Data 1 r2 |                                                |
+   |-----------+------------------------------------------------|
+   | Data3     | [[https://emacs.stackexchange.com/questions/38135/wrap-cell-content-in-an-org-mode-tabl][a link]]                                         |
+   |-----------+------------------------------------------------|
+    
+* otro h2

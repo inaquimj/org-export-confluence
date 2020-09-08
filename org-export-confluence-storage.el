@@ -5,9 +5,9 @@
 ;; Author: Andreé Toledo <aandreetoledo@gmail.com>
 ;; Maintainer: Iñaqui Medina <inaqui.medina@gmail.com>
 ;; Created: 14 Jul 2010
-;; Keywords: org-mode export confluence storage
+;; Keywords: languages
 ;; Version: 0.1
-;; URL: https://github.com/inaquimj/org-export-confluence
+;; URL: https://github.com/inaquimj/org-export-confluencev
 ;; Package-Requires: ((emacs "24.4"))
 
 ;;; Commentary:
@@ -15,19 +15,20 @@
 ;; This package tailors org-mode export to html to match the syntax of
 ;; confluence storage.
 
-(provide 'org-export-confluence)
+(require 'org)
+(provide 'org-export-confluence-storage)
 
 (setq org-html-head-include-default-style nil)
 (setq org-html-table-default-attributes nil)
 
 (org-export-define-derived-backend 'confluence-storage 'html
-				   :menu-entry '(?C "Confluence Storage" org-confluence-storage-export-as-confluence-storage)
+				   :menu-entry '(?C "Confluence Storage" org-export-confluence-storage)
 				   :translate-alist '((template . org-cs-exp-template)
 						      (inner-template . org-cs-exp-inner-template)))
 
 
 ;;;###autoload
-(defun org-confluence-storage-export-as-confluence-storage
+(defun org-export-confluence-storage
 (&optional async subtreep visible-only body-only ext-plist)
   (interactive)
   (org-export-to-buffer 'confluence-storage "*Org Confluence Storage Export*"
