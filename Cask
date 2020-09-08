@@ -1,7 +1,7 @@
 (source gnu)
 (source melpa)
 
-(package-file "org-export-confluence.el")
+(package-file "ox-cs.el")
 
 (development
   (depends-on "package-lint"))
