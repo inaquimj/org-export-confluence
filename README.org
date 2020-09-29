@@ -10,8 +10,7 @@
    - [X] Add Table of Content
    - [X] Fix table format
    - [X] Add Continuous Integration
-   - [ ] Remove lint issues
-   - [ ] Remove numbers from sections
+   - [X] Remove lint issues
    - [ ] Check lists
    - [ ] Check checkboxes
    - [ ] Links to the same document or confluence pages
@@ -26,4 +25,5 @@
    - [[https://orgmode.org/worg/exporters/ox-docstrings.html][Docstrings from 'ox.el']]
    - [[https://confluence.atlassian.com/doc/confluence-storage-format-790796544.html][Confluence Storage Format]]
 
-
+** Potential enhancements
+   - Configuration option to remove numbers from sections
