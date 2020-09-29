@@ -4,4 +4,5 @@
 (package-file "ox-cs.el")
 
 (development
-  (depends-on "package-lint"))
+ (depends-on "package-lint")
+ (depends-on "elisp-lint"))
